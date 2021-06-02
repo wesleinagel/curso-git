@@ -4,21 +4,42 @@ namespace ProjetoGit
 {
     class Program
     {
+        /* Github: é um serviço de armazenamento remoto de repositórios Git
+        
+        Repositório, ou repo, é um diretório onde os arquivos do seu projeto ficam armazenados. Ele pode ficar em um depósito do GitHub ou em seu computador.
+        Você pode armazenar códigos, imagens, áudios, ou qualquer outra coisa relacionada ao projeto no diretório.
+
+        padrão da indústria para armazenamento de projetos de código aberto
+
+        Maior hospedeiro de código fonte do mundo
+
+        É um "rede social" de repositórios Git. Dica: currículo!
+         */
+
         // vermelho: arquivos não rastreados (untracked)
         // verde: arquivo pronto para ser "commitados " (stage)
 
-        /*git add - colocar arquivos modificados na área de "stage"
+        /* iniciar com botão direito "git bash here"
+         * 
+         * git add - colocar arquivos modificados na área de "stage"
          *  git status - verificar quais são os arquivos no "stage" ou e "untracked"
          * 
          * git commit -m "nome do arquivos"
          * git log
+         * 
+         * 
+         * git status -> untracked  ->(git add.) -> staged(pronto) -> git commit -m"msg" -> committed (salvo)
+         * 
+         * 
+         * 
          */
 
 
         static void Main(string[] args)
         {
             Console.WriteLine("Ola mundo!");
-            Console.WriteLine(" Bom dia!");
+            Console.WriteLine(" Como você está hoje?");
+            Console.WriteLine("Tenha um bom dia");
             Console.ReadLine();
 
         }
