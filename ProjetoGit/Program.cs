@@ -36,6 +36,11 @@ namespace ProjetoGit
          * git log - busca cada alteração feita ao longo do projeto com detalhes de quem e quando. 
          *
          * 
+         * É importante assegurar que seu nome e email estão devidamente configurados, toda vez que um commit é relaizado, é registrado QUEM fez o commit
+         * Se um email diferente for configurado, outro perfil pode acabar aparecendo.
+         * 
+         * Para mudar: git config --global user.name " seu nome"
+         *             git config --global user.email " seu email".
          * 
          */
 
