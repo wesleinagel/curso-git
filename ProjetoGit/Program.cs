@@ -30,6 +30,8 @@ namespace ProjetoGit
          * 
          * git status -> untracked  ->(git add.) -> staged(pronto) -> git commit -m"msg" -> committed (salvo)
          * 
+         * git log --oneline (oneline, é assim mesmo) - busca as alterações e atualizações feita
+         * git log - busca cada alteração feita ao longo do projeto
          * 
          * 
          */
