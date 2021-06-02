@@ -27,11 +27,14 @@ namespace ProjetoGit
          * git commit -m "nome do arquivos"
          * git log
          * 
+         * git push para atualizar diretamente no repositorio da pagina
+         * 
          * 
          * git status -> untracked  ->(git add.) -> staged(pronto) -> git commit -m"msg" -> committed (salvo)
          * 
-         * git log --oneline (oneline, é assim mesmo) - busca as alterações e atualizações feita
-         * git log - busca cada alteração feita ao longo do projeto
+         * git log --oneline (oneline, é assim mesmo) - busca as alterações e atualizações feita ao longo de este unico projeto
+         * git log - busca cada alteração feita ao longo do projeto com detalhes de quem e quando. 
+         *
          * 
          * 
          */
